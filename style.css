@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f3f3f3;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #232f3e;
+    color: white;
+    height: 60px;
+}
+
+.nav-logo img {
+    height: 40px;
+}
+
+.navbar-address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-first {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.add-sec {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.nav-search select {
+    border: none;
+    background-color: #f3f3f3;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+.nav-search input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.nav-search .search-icon {
+    background-color: #febd69;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.nav-signin, .nav-return, .nav-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.nav-signin p, .nav-return p {
+    margin: 0;
+}
+
+.nav-second {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-cart {
+    font-size: 18px;
+    position: relative;
+}
+
+.nav-cart span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #febd69;
+    color: #232f3e;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    padding: 10px 20px;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.panel-all i {
+    font-size: 18px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+    cursor: pointer;
+}
+
+.panel-deals {
+    margin-left: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.background-section {
+    height: 200px;
+    width: 100%;
+}
+
+.background-section img {
+    /* width: 100%; 
+     height: 200px;  */
+    background-size: contain;
+    /* background-position: relative; */
+
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e2e7e6;
+}
+
+.box {
+    width: 23%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.box h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.foot.panel1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.foot.panel1 a:hover {
+    color: #febd69; 
+}
+
+.foot.panel2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #232f3e;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 150px;
+}
+
+.footer-links p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #febd69; 
+    text-decoration: underline;
+}
+.foot.panel3 {
+    background-color: #131a22;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-copyright p {
+    font-size: 12px;
+    color: #ccc;
+    margin: 0;
+}
