@@ -1,2 +1,2 @@
 # shrabana-project
-Auther :- shrabana
+Author :- shrabana
